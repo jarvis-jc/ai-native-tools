@@ -1,0 +1,1864 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Native Tools Directory 2025 | Best AI Coding, Writing, Research & Automation Tools</title>
+    <meta name="description" content="The definitive directory of AI-native tools. Compare 45+ AI coding agents, writing assistants, research tools, and automation platforms with pricing, features, and expert reviews.">
+    <meta name="keywords" content="AI tools, AI coding agents, Claude Code, Cursor, ChatGPT, Perplexity, AI writing, AI automation, AI directory">
+    <meta name="author" content="AI-Native Tools Directory">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://ai-native-tools.directory/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="AI-Native Tools Directory 2025 | 45+ Tools Compared">
+    <meta property="og:description" content="The definitive directory of AI-native tools. Compare AI coding agents, writing assistants, research tools, and automation platforms.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ai-native-tools.directory/">
+    <meta property="og:image" content="https://ai-native-tools.directory/og-image.png">
+    <meta property="og:site_name" content="AI-Native Tools Directory">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="AI-Native Tools Directory 2025 | 45+ Tools Compared">
+    <meta name="twitter:description" content="The definitive directory of AI-native tools. Compare AI coding agents, writing assistants, research tools, and automation platforms.">
+    <meta name="twitter:image" content="https://ai-native-tools.directory/og-image.png">
+    
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "AI-Native Tools Directory",
+        "description": "The definitive directory of AI-native tools including coding agents, writing assistants, research tools, and automation platforms.",
+        "url": "https://ai-native-tools.directory/",
+        "mainEntity": {
+            "@type": "ItemList",
+            "name": "AI-Native Tools",
+            "numberOfItems": 45,
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Claude Code", "url": "#claude-code"},
+                {"@type": "ListItem", "position": 2, "name": "Cursor", "url": "#cursor"},
+                {"@type": "ListItem", "position": 3, "name": "GitHub Copilot", "url": "#github-copilot"},
+                {"@type": "ListItem", "position": 4, "name": "ChatGPT", "url": "#chatgpt"},
+                {"@type": "ListItem", "position": 5, "name": "Perplexity", "url": "#perplexity"}
+            ]
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "AI-Native Tools Directory"
+        }
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+    
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #10b981;
+            --accent: #f59e0b;
+            --bg: #0f172a;
+            --bg-card: #1e293b;
+            --bg-hover: #334155;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        
+        /* Header */
+        header {
+            padding: 20px 0;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            background: rgba(15, 23, 42, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 100;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        nav a {
+            color: var(--text-muted);
+            text-decoration: none;
+            margin-left: 32px;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        
+        nav a:hover {
+            color: var(--text);
+        }
+        
+        .cta-btn {
+            background: var(--gradient);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-left: 32px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 40px rgba(99, 102, 241, 0.3);
+        }
+        
+        /* Hero */
+        .hero {
+            padding: 80px 0 60px;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 24px;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero p {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+        
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 60px;
+            margin-bottom: 40px;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        
+        .stat-label {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+        
+        /* Category Filter */
+        .category-filter {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 60px;
+        }
+        
+        .filter-btn {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 10px 20px;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--primary);
+            border-color: var(--primary);
+        }
+        
+        .filter-btn .emoji {
+            margin-right: 6px;
+        }
+        
+        /* Tools Grid */
+        .tools-section {
+            padding: 40px 0;
+        }
+        
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 1.75rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 24px;
+            margin-bottom: 60px;
+        }
+        
+        .tool-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .tool-card:hover {
+            border-color: var(--primary);
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .tool-card.featured {
+            border-color: var(--accent);
+        }
+        
+        .tool-card.featured::before {
+            content: '⭐ Featured';
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: var(--accent);
+            color: #000;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 4px 10px;
+            border-radius: 20px;
+        }
+        
+        .tool-header {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+        
+        .tool-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--bg-hover);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+        
+        .tool-info h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        
+        .tool-info h3 a {
+            color: var(--text);
+            text-decoration: none;
+        }
+        
+        .tool-info h3 a:hover {
+            color: var(--primary);
+        }
+        
+        .tool-tagline {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+        
+        .tool-description {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+        
+        .tool-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+        
+        .tag {
+            background: var(--bg-hover);
+            color: var(--text-muted);
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+        
+        .tool-pricing {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+        }
+        
+        .price {
+            font-weight: 700;
+            color: var(--secondary);
+        }
+        
+        .price-free {
+            color: var(--secondary);
+        }
+        
+        .price-paid {
+            color: var(--accent);
+        }
+        
+        .visit-btn {
+            background: var(--bg-hover);
+            color: var(--text);
+            padding: 8px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        
+        .visit-btn:hover {
+            background: var(--primary);
+        }
+        
+        /* Comparison Table */
+        .comparison-section {
+            padding: 60px 0;
+            border-top: 1px solid var(--border);
+        }
+        
+        .comparison-section h2 {
+            font-size: 2rem;
+            margin-bottom: 12px;
+        }
+        
+        .comparison-section p {
+            color: var(--text-muted);
+            margin-bottom: 30px;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--bg-card);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+        
+        .comparison-table th,
+        .comparison-table td {
+            padding: 16px 20px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        .comparison-table th {
+            background: var(--bg-hover);
+            font-weight: 600;
+            color: var(--text);
+        }
+        
+        .comparison-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .comparison-table tr:hover {
+            background: var(--bg-hover);
+        }
+        
+        .check {
+            color: var(--secondary);
+        }
+        
+        .cross {
+            color: #ef4444;
+        }
+        
+        /* Newsletter */
+        .newsletter {
+            background: var(--gradient);
+            padding: 60px;
+            border-radius: 24px;
+            text-align: center;
+            margin: 60px 0;
+        }
+        
+        .newsletter h2 {
+            font-size: 2rem;
+            margin-bottom: 12px;
+        }
+        
+        .newsletter p {
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+        
+        .newsletter-form {
+            display: flex;
+            max-width: 500px;
+            margin: 0 auto;
+            gap: 12px;
+        }
+        
+        .newsletter-form input {
+            flex: 1;
+            padding: 16px 20px;
+            border: none;
+            border-radius: 12px;
+            font-size: 1rem;
+            background: rgba(255, 255, 255, 0.9);
+            color: #1e293b;
+        }
+        
+        .newsletter-form button {
+            background: var(--bg);
+            color: var(--text);
+            padding: 16px 32px;
+            border: none;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        
+        .newsletter-form button:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Monetization CTAs */
+        .monetization {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin: 60px 0;
+        }
+        
+        .monetization-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .monetization-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 12px;
+        }
+        
+        .monetization-card p {
+            color: var(--text-muted);
+            margin-bottom: 24px;
+        }
+        
+        .monetization-card .btn {
+            display: inline-block;
+            padding: 14px 32px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+        
+        .monetization-card .btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .btn-primary {
+            background: var(--gradient);
+            color: white;
+        }
+        
+        .btn-secondary {
+            background: var(--accent);
+            color: #000;
+        }
+        
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 40px 0;
+            text-align: center;
+            color: var(--text-muted);
+        }
+        
+        footer a {
+            color: var(--text-muted);
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            color: var(--text);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero-stats {
+                flex-wrap: wrap;
+                gap: 30px;
+            }
+            
+            .tools-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .monetization {
+                grid-template-columns: 1fr;
+            }
+            
+            .newsletter {
+                padding: 40px 24px;
+            }
+            
+            .newsletter-form {
+                flex-direction: column;
+            }
+            
+            nav {
+                display: none;
+            }
+            
+            .comparison-table {
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo">🤖 AI-Native Tools</div>
+            <nav>
+                <a href="#coding">Coding</a>
+                <a href="#writing">Writing</a>
+                <a href="#research">Research</a>
+                <a href="#automation">Automation</a>
+                <a href="#compare">Compare</a>
+                <a href="#submit" class="cta-btn">Submit Tool</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>The Definitive Directory of AI-Native Tools</h1>
+            <p>Discover, compare, and choose the best AI-powered tools for coding, writing, research, and automation. Updated weekly with pricing, features, and expert reviews.</p>
+            
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">45+</div>
+                    <div class="stat-label">AI Tools Listed</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">8</div>
+                    <div class="stat-label">Categories</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">Weekly</div>
+                    <div class="stat-label">Updates</div>
+                </div>
+            </div>
+            
+            <!-- Category Filter -->
+            <div class="category-filter">
+                <button class="filter-btn active" data-category="all"><span class="emoji">🌟</span>All Tools</button>
+                <button class="filter-btn" data-category="coding"><span class="emoji">💻</span>Coding Agents</button>
+                <button class="filter-btn" data-category="writing"><span class="emoji">✍️</span>Writing</button>
+                <button class="filter-btn" data-category="research"><span class="emoji">🔬</span>Research</button>
+                <button class="filter-btn" data-category="automation"><span class="emoji">⚡</span>Automation</button>
+                <button class="filter-btn" data-category="browser"><span class="emoji">🌐</span>Browser</button>
+                <button class="filter-btn" data-category="voice"><span class="emoji">🎙️</span>Voice</button>
+                <button class="filter-btn" data-category="image"><span class="emoji">🎨</span>Image</button>
+                <button class="filter-btn" data-category="video"><span class="emoji">🎬</span>Video</button>
+            </div>
+        </section>
+
+        <!-- Coding Agents Section -->
+        <section id="coding" class="tools-section" data-category="coding">
+            <div class="section-header">
+                <h2 class="section-title">💻 AI Coding Agents</h2>
+            </div>
+            <div class="tools-grid">
+                <!-- Claude Code -->
+                <div class="tool-card featured" id="claude-code">
+                    <div class="tool-header">
+                        <div class="tool-icon">🧠</div>
+                        <div class="tool-info">
+                            <h3><a href="https://claude.ai/code" target="_blank" rel="noopener">Claude Code</a></h3>
+                            <span class="tool-tagline">Anthropic's Official CLI</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Anthropic's agentic coding tool with 80.9% SWE-bench score and 200K context window. Best for complex refactoring and terminal-based workflows.</p>
+                    <div class="tool-tags">
+                        <span class="tag">CLI</span>
+                        <span class="tag">Agentic</span>
+                        <span class="tag">200K Context</span>
+                        <span class="tag">Best Reasoning</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$20/mo (Pro) or API</span>
+                        <a href="https://claude.ai/code" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Cursor -->
+                <div class="tool-card featured" id="cursor">
+                    <div class="tool-header">
+                        <div class="tool-icon">⚡</div>
+                        <div class="tool-info">
+                            <h3><a href="https://cursor.com" target="_blank" rel="noopener">Cursor</a></h3>
+                            <span class="tool-tagline">AI-First IDE</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">VS Code fork with deep AI integration. Composer mode for multi-file edits, excellent UX, and fastest setup. Valued at $9B.</p>
+                    <div class="tool-tags">
+                        <span class="tag">IDE</span>
+                        <span class="tag">Composer Mode</span>
+                        <span class="tag">Multi-Model</span>
+                        <span class="tag">Tab Completion</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$20/mo Pro</span>
+                        <a href="https://cursor.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- GitHub Copilot -->
+                <div class="tool-card" id="github-copilot">
+                    <div class="tool-header">
+                        <div class="tool-icon">🐙</div>
+                        <div class="tool-info">
+                            <h3><a href="https://github.com/features/copilot" target="_blank" rel="noopener">GitHub Copilot</a></h3>
+                            <span class="tool-tagline">Enterprise Standard</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">1.8M+ users, comprehensive security and compliance features. Supports VS Code, JetBrains, Neovim. Best enterprise option.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Enterprise</span>
+                        <span class="tag">JetBrains</span>
+                        <span class="tag">Security</span>
+                        <span class="tag">GitHub Integration</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$10-39/mo</span>
+                        <a href="https://github.com/features/copilot" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Windsurf -->
+                <div class="tool-card" id="windsurf">
+                    <div class="tool-header">
+                        <div class="tool-icon">🏄</div>
+                        <div class="tool-info">
+                            <h3><a href="https://codeium.com/windsurf" target="_blank" rel="noopener">Windsurf</a></h3>
+                            <span class="tool-tagline">Codeium's AI Editor</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Cascade mode for agentic editing from Codeium. Clean interface, strong free tier. Good Cursor alternative.</p>
+                    <div class="tool-tags">
+                        <span class="tag">IDE</span>
+                        <span class="tag">Cascade</span>
+                        <span class="tag">Free Tier</span>
+                        <span class="tag">Agentic</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free / $15/mo Pro</span>
+                        <a href="https://codeium.com/windsurf" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Cline -->
+                <div class="tool-card" id="cline">
+                    <div class="tool-header">
+                        <div class="tool-icon">🔌</div>
+                        <div class="tool-info">
+                            <h3><a href="https://github.com/cline/cline" target="_blank" rel="noopener">Cline</a></h3>
+                            <span class="tool-tagline">VS Code Extension</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Open-source agentic coding extension for VS Code. Uses treesitter and ripgrep for context. BYO API key.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Open Source</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">BYO Key</span>
+                        <span class="tag">Multi-Model</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free (+ API costs)</span>
+                        <a href="https://github.com/cline/cline" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Aider -->
+                <div class="tool-card" id="aider">
+                    <div class="tool-header">
+                        <div class="tool-icon">🛠️</div>
+                        <div class="tool-info">
+                            <h3><a href="https://aider.chat" target="_blank" rel="noopener">Aider</a></h3>
+                            <span class="tool-tagline">CLI Pair Programmer</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Pure CLI-based AI coder with best-in-class context fetching via treesitter. Not agentic but brilliantly executed.</p>
+                    <div class="tool-tags">
+                        <span class="tag">CLI</span>
+                        <span class="tag">Open Source</span>
+                        <span class="tag">Git Integration</span>
+                        <span class="tag">Best Context</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free (+ API costs)</span>
+                        <a href="https://aider.chat" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Codex CLI -->
+                <div class="tool-card" id="codex-cli">
+                    <div class="tool-header">
+                        <div class="tool-icon">🤖</div>
+                        <div class="tool-info">
+                            <h3><a href="https://openai.com/codex" target="_blank" rel="noopener">Codex CLI</a></h3>
+                            <span class="tool-tagline">OpenAI's Agent</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Re-emerged in 2025 as a serious agent-first coding tool. Powerful model but hampered by setup complexity.</p>
+                    <div class="tool-tags">
+                        <span class="tag">CLI</span>
+                        <span class="tag">OpenAI</span>
+                        <span class="tag">Agentic</span>
+                        <span class="tag">GPT-4</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">API-based</span>
+                        <a href="https://openai.com/codex" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Continue -->
+                <div class="tool-card" id="continue">
+                    <div class="tool-header">
+                        <div class="tool-icon">➡️</div>
+                        <div class="tool-info">
+                            <h3><a href="https://continue.dev" target="_blank" rel="noopener">Continue</a></h3>
+                            <span class="tool-tagline">Open-Source Copilot</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Open-source alternative to Copilot. Supports any LLM, local models, and custom configurations.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Open Source</span>
+                        <span class="tag">VS Code</span>
+                        <span class="tag">JetBrains</span>
+                        <span class="tag">Local LLMs</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free</span>
+                        <a href="https://continue.dev" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Gemini CLI -->
+                <div class="tool-card" id="gemini-cli">
+                    <div class="tool-header">
+                        <div class="tool-icon">💎</div>
+                        <div class="tool-info">
+                            <h3><a href="https://github.com/google-gemini/gemini-cli" target="_blank" rel="noopener">Gemini CLI</a></h3>
+                            <span class="tool-tagline">Google's Agent</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Wins for large-context refactors with 1M+ context window. Excellent for massive codebase navigation.</p>
+                    <div class="tool-tags">
+                        <span class="tag">CLI</span>
+                        <span class="tag">1M Context</span>
+                        <span class="tag">Google</span>
+                        <span class="tag">Refactoring</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free / API</span>
+                        <a href="https://github.com/google-gemini/gemini-cli" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Replit -->
+                <div class="tool-card" id="replit">
+                    <div class="tool-header">
+                        <div class="tool-icon">🌐</div>
+                        <div class="tool-info">
+                            <h3><a href="https://replit.com" target="_blank" rel="noopener">Replit Agent</a></h3>
+                            <span class="tool-tagline">Cloud IDE + AI</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Browser-based IDE with AI agent that can build and deploy full apps. Great for beginners and quick prototypes.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Browser IDE</span>
+                        <span class="tag">Deployment</span>
+                        <span class="tag">Beginner Friendly</span>
+                        <span class="tag">Full-Stack</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$25/mo</span>
+                        <a href="https://replit.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Writing Tools Section -->
+        <section id="writing" class="tools-section" data-category="writing">
+            <div class="section-header">
+                <h2 class="section-title">✍️ AI Writing Tools</h2>
+            </div>
+            <div class="tools-grid">
+                <!-- Claude -->
+                <div class="tool-card featured" id="claude">
+                    <div class="tool-header">
+                        <div class="tool-icon">🧠</div>
+                        <div class="tool-info">
+                            <h3><a href="https://claude.ai" target="_blank" rel="noopener">Claude</a></h3>
+                            <span class="tool-tagline">Best for Long-Form</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Anthropic's flagship model. Best for nuanced writing, long documents, and complex analysis. 200K context window.</p>
+                    <div class="tool-tags">
+                        <span class="tag">General AI</span>
+                        <span class="tag">Long-Form</span>
+                        <span class="tag">Analysis</span>
+                        <span class="tag">Artifacts</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $20 Pro</span>
+                        <a href="https://claude.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- ChatGPT -->
+                <div class="tool-card featured" id="chatgpt">
+                    <div class="tool-header">
+                        <div class="tool-icon">💬</div>
+                        <div class="tool-info">
+                            <h3><a href="https://chat.openai.com" target="_blank" rel="noopener">ChatGPT</a></h3>
+                            <span class="tool-tagline">Most Popular AI</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">OpenAI's flagship with GPT-4o, image generation, browsing, and plugins. Largest ecosystem.</p>
+                    <div class="tool-tags">
+                        <span class="tag">General AI</span>
+                        <span class="tag">Images</span>
+                        <span class="tag">Plugins</span>
+                        <span class="tag">GPTs Store</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $20 Plus</span>
+                        <a href="https://chat.openai.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Jasper -->
+                <div class="tool-card" id="jasper">
+                    <div class="tool-header">
+                        <div class="tool-icon">✨</div>
+                        <div class="tool-info">
+                            <h3><a href="https://jasper.ai" target="_blank" rel="noopener">Jasper</a></h3>
+                            <span class="tool-tagline">Enterprise Marketing</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Enterprise-focused AI for marketing teams. Brand voice, templates, and team collaboration.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Marketing</span>
+                        <span class="tag">Enterprise</span>
+                        <span class="tag">Brand Voice</span>
+                        <span class="tag">Templates</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$49/mo</span>
+                        <a href="https://jasper.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Copy.ai -->
+                <div class="tool-card" id="copyai">
+                    <div class="tool-header">
+                        <div class="tool-icon">📝</div>
+                        <div class="tool-info">
+                            <h3><a href="https://copy.ai" target="_blank" rel="noopener">Copy.ai</a></h3>
+                            <span class="tool-tagline">Sales & Marketing</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI copywriting for sales and marketing. Workflows, email sequences, and GTM automation.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Copywriting</span>
+                        <span class="tag">Sales</span>
+                        <span class="tag">Workflows</span>
+                        <span class="tag">Email</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $49/mo</span>
+                        <a href="https://copy.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Writesonic -->
+                <div class="tool-card" id="writesonic">
+                    <div class="tool-header">
+                        <div class="tool-icon">🚀</div>
+                        <div class="tool-info">
+                            <h3><a href="https://writesonic.com" target="_blank" rel="noopener">Writesonic</a></h3>
+                            <span class="tool-tagline">SEO Content</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI writing for SEO-optimized content, ads, and product descriptions. Includes Chatsonic.</p>
+                    <div class="tool-tags">
+                        <span class="tag">SEO</span>
+                        <span class="tag">Ads</span>
+                        <span class="tag">E-commerce</span>
+                        <span class="tag">Chatsonic</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$16/mo</span>
+                        <a href="https://writesonic.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Notion AI -->
+                <div class="tool-card" id="notion-ai">
+                    <div class="tool-header">
+                        <div class="tool-icon">📓</div>
+                        <div class="tool-info">
+                            <h3><a href="https://notion.so/product/ai" target="_blank" rel="noopener">Notion AI</a></h3>
+                            <span class="tool-tagline">Workspace AI</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI built into Notion for summarizing, brainstorming, and writing within your workspace.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Workspace</span>
+                        <span class="tag">Summarize</span>
+                        <span class="tag">Notes</span>
+                        <span class="tag">Integrated</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$10/mo add-on</span>
+                        <a href="https://notion.so/product/ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Grammarly -->
+                <div class="tool-card" id="grammarly">
+                    <div class="tool-header">
+                        <div class="tool-icon">✓</div>
+                        <div class="tool-info">
+                            <h3><a href="https://grammarly.com" target="_blank" rel="noopener">Grammarly</a></h3>
+                            <span class="tool-tagline">Writing Assistant</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI-powered grammar, tone, and clarity suggestions. Works everywhere with browser extension.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Grammar</span>
+                        <span class="tag">Tone</span>
+                        <span class="tag">Extension</span>
+                        <span class="tag">Everywhere</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $12/mo</span>
+                        <a href="https://grammarly.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Tools Section -->
+        <section id="research" class="tools-section" data-category="research">
+            <div class="section-header">
+                <h2 class="section-title">🔬 AI Research Tools</h2>
+            </div>
+            <div class="tools-grid">
+                <!-- Perplexity -->
+                <div class="tool-card featured" id="perplexity">
+                    <div class="tool-header">
+                        <div class="tool-icon">🔍</div>
+                        <div class="tool-info">
+                            <h3><a href="https://perplexity.ai" target="_blank" rel="noopener">Perplexity</a></h3>
+                            <span class="tool-tagline">AI Search Engine</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Answer engine with real-time web search and citations. Pro Search for deep research with multiple queries.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Search</span>
+                        <span class="tag">Citations</span>
+                        <span class="tag">Real-Time</span>
+                        <span class="tag">Pro Search</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $20 Pro</span>
+                        <a href="https://perplexity.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Elicit -->
+                <div class="tool-card" id="elicit">
+                    <div class="tool-header">
+                        <div class="tool-icon">📚</div>
+                        <div class="tool-info">
+                            <h3><a href="https://elicit.com" target="_blank" rel="noopener">Elicit</a></h3>
+                            <span class="tool-tagline">Academic Research</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI research assistant for finding and synthesizing academic papers. Extracts key findings automatically.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Academic</span>
+                        <span class="tag">Papers</span>
+                        <span class="tag">Synthesis</span>
+                        <span class="tag">Citations</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $10/mo</span>
+                        <a href="https://elicit.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Consensus -->
+                <div class="tool-card" id="consensus">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎓</div>
+                        <div class="tool-info">
+                            <h3><a href="https://consensus.app" target="_blank" rel="noopener">Consensus</a></h3>
+                            <span class="tool-tagline">Science Search</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Search engine for scientific research. Shows consensus across papers with yes/no/maybe indicators.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Science</span>
+                        <span class="tag">Consensus</span>
+                        <span class="tag">Peer-Reviewed</span>
+                        <span class="tag">Evidence</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $9/mo</span>
+                        <a href="https://consensus.app" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Semantic Scholar -->
+                <div class="tool-card" id="semantic-scholar">
+                    <div class="tool-header">
+                        <div class="tool-icon">🔬</div>
+                        <div class="tool-info">
+                            <h3><a href="https://semanticscholar.org" target="_blank" rel="noopener">Semantic Scholar</a></h3>
+                            <span class="tool-tagline">AI Paper Search</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Free AI-powered academic search from Allen AI. TLDR summaries and citation context.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Academic</span>
+                        <span class="tag">Free</span>
+                        <span class="tag">TLDR</span>
+                        <span class="tag">Citations</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free</span>
+                        <a href="https://semanticscholar.org" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Notebook LM -->
+                <div class="tool-card" id="notebooklm">
+                    <div class="tool-header">
+                        <div class="tool-icon">📔</div>
+                        <div class="tool-info">
+                            <h3><a href="https://notebooklm.google.com" target="_blank" rel="noopener">NotebookLM</a></h3>
+                            <span class="tool-tagline">Google's Research AI</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Upload documents and get an AI that only uses those sources. Creates audio summaries as podcasts.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Documents</span>
+                        <span class="tag">Grounded</span>
+                        <span class="tag">Audio</span>
+                        <span class="tag">Google</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free</span>
+                        <a href="https://notebooklm.google.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Scite -->
+                <div class="tool-card" id="scite">
+                    <div class="tool-header">
+                        <div class="tool-icon">📖</div>
+                        <div class="tool-info">
+                            <h3><a href="https://scite.ai" target="_blank" rel="noopener">Scite.ai</a></h3>
+                            <span class="tool-tagline">Citation Analysis</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Smart citations showing whether papers support, contrast, or mention claims. AI assistant for research.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Citations</span>
+                        <span class="tag">Support/Contrast</span>
+                        <span class="tag">Academic</span>
+                        <span class="tag">Assistant</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$20/mo</span>
+                        <a href="https://scite.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Automation Tools Section -->
+        <section id="automation" class="tools-section" data-category="automation">
+            <div class="section-header">
+                <h2 class="section-title">⚡ AI Automation Tools</h2>
+            </div>
+            <div class="tools-grid">
+                <!-- Zapier AI -->
+                <div class="tool-card featured" id="zapier">
+                    <div class="tool-header">
+                        <div class="tool-icon">⚡</div>
+                        <div class="tool-info">
+                            <h3><a href="https://zapier.com" target="_blank" rel="noopener">Zapier</a></h3>
+                            <span class="tool-tagline">No-Code Automation</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">7,000+ app integrations with AI features. Natural language automation, AI actions, and chatbots.</p>
+                    <div class="tool-tags">
+                        <span class="tag">No-Code</span>
+                        <span class="tag">7000+ Apps</span>
+                        <span class="tag">AI Actions</span>
+                        <span class="tag">Chatbots</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $19/mo</span>
+                        <a href="https://zapier.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Make -->
+                <div class="tool-card" id="make">
+                    <div class="tool-header">
+                        <div class="tool-icon">🔧</div>
+                        <div class="tool-info">
+                            <h3><a href="https://make.com" target="_blank" rel="noopener">Make</a></h3>
+                            <span class="tool-tagline">Visual Automation</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Visual workflow builder with AI modules. More complex logic than Zapier, better for power users.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Visual</span>
+                        <span class="tag">Complex Logic</span>
+                        <span class="tag">AI Modules</span>
+                        <span class="tag">Power Users</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $9/mo</span>
+                        <a href="https://make.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- n8n -->
+                <div class="tool-card" id="n8n">
+                    <div class="tool-header">
+                        <div class="tool-icon">🔗</div>
+                        <div class="tool-info">
+                            <h3><a href="https://n8n.io" target="_blank" rel="noopener">n8n</a></h3>
+                            <span class="tool-tagline">Self-Hosted Automation</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Open-source workflow automation. Self-host or cloud. AI nodes for LLM integration.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Open Source</span>
+                        <span class="tag">Self-Hosted</span>
+                        <span class="tag">AI Nodes</span>
+                        <span class="tag">Developer</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free / $20/mo</span>
+                        <a href="https://n8n.io" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Bardeen -->
+                <div class="tool-card" id="bardeen">
+                    <div class="tool-header">
+                        <div class="tool-icon">🤖</div>
+                        <div class="tool-info">
+                            <h3><a href="https://bardeen.ai" target="_blank" rel="noopener">Bardeen</a></h3>
+                            <span class="tool-tagline">Browser Automation</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI-powered browser automation. Scraping, form filling, and workflow automation via Chrome extension.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Browser</span>
+                        <span class="tag">Scraping</span>
+                        <span class="tag">Extension</span>
+                        <span class="tag">No-Code</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $10/mo</span>
+                        <a href="https://bardeen.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Clay -->
+                <div class="tool-card" id="clay">
+                    <div class="tool-header">
+                        <div class="tool-icon">🏺</div>
+                        <div class="tool-info">
+                            <h3><a href="https://clay.com" target="_blank" rel="noopener">Clay</a></h3>
+                            <span class="tool-tagline">Data Enrichment</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI-powered data enrichment and outbound automation. 100+ data sources, GPT integration.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Data</span>
+                        <span class="tag">Enrichment</span>
+                        <span class="tag">Outbound</span>
+                        <span class="tag">Sales</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$149/mo</span>
+                        <a href="https://clay.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Browser Tools Section -->
+        <section id="browser-tools" class="tools-section" data-category="browser">
+            <div class="section-header">
+                <h2 class="section-title">🌐 AI Browser Tools</h2>
+            </div>
+            <div class="tools-grid">
+                <!-- Browserbase -->
+                <div class="tool-card" id="browserbase">
+                    <div class="tool-header">
+                        <div class="tool-icon">🌐</div>
+                        <div class="tool-info">
+                            <h3><a href="https://browserbase.com" target="_blank" rel="noopener">Browserbase</a></h3>
+                            <span class="tool-tagline">Headless Browser API</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Cloud browsers for AI agents. Stealth mode, session recording, and Playwright compatibility.</p>
+                    <div class="tool-tags">
+                        <span class="tag">API</span>
+                        <span class="tag">Stealth</span>
+                        <span class="tag">Playwright</span>
+                        <span class="tag">AI Agents</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$49/mo</span>
+                        <a href="https://browserbase.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Multion -->
+                <div class="tool-card" id="multion">
+                    <div class="tool-header">
+                        <div class="tool-icon">🕹️</div>
+                        <div class="tool-info">
+                            <h3><a href="https://multion.ai" target="_blank" rel="noopener">MultiOn</a></h3>
+                            <span class="tool-tagline">AI Web Agent</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI that can browse the web for you. Book flights, fill forms, complete multi-step tasks.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Web Agent</span>
+                        <span class="tag">Tasks</span>
+                        <span class="tag">Autonomous</span>
+                        <span class="tag">API</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">API-based</span>
+                        <a href="https://multion.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Arc Browser -->
+                <div class="tool-card" id="arc">
+                    <div class="tool-header">
+                        <div class="tool-icon">🌈</div>
+                        <div class="tool-info">
+                            <h3><a href="https://arc.net" target="_blank" rel="noopener">Arc Browser</a></h3>
+                            <span class="tool-tagline">AI-Enhanced Browser</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Beautiful browser with AI features like Max (page summaries, Q&A) and tab organization.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Browser</span>
+                        <span class="tag">Summaries</span>
+                        <span class="tag">Beautiful</span>
+                        <span class="tag">Mac/iOS</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free</span>
+                        <a href="https://arc.net" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Voice Tools Section -->
+        <section id="voice-tools" class="tools-section" data-category="voice">
+            <div class="section-header">
+                <h2 class="section-title">🎙️ AI Voice Tools</h2>
+            </div>
+            <div class="tools-grid">
+                <!-- ElevenLabs -->
+                <div class="tool-card featured" id="elevenlabs">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎙️</div>
+                        <div class="tool-info">
+                            <h3><a href="https://elevenlabs.io" target="_blank" rel="noopener">ElevenLabs</a></h3>
+                            <span class="tool-tagline">Voice AI Leader</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Industry-leading text-to-speech and voice cloning. Used by major studios and content creators.</p>
+                    <div class="tool-tags">
+                        <span class="tag">TTS</span>
+                        <span class="tag">Voice Clone</span>
+                        <span class="tag">Studio Quality</span>
+                        <span class="tag">API</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $5/mo</span>
+                        <a href="https://elevenlabs.io" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Whisper -->
+                <div class="tool-card" id="whisper">
+                    <div class="tool-header">
+                        <div class="tool-icon">👂</div>
+                        <div class="tool-info">
+                            <h3><a href="https://openai.com/whisper" target="_blank" rel="noopener">Whisper</a></h3>
+                            <span class="tool-tagline">Speech Recognition</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">OpenAI's open-source speech recognition. Multi-language, robust to accents and noise.</p>
+                    <div class="tool-tags">
+                        <span class="tag">STT</span>
+                        <span class="tag">Open Source</span>
+                        <span class="tag">Multi-Language</span>
+                        <span class="tag">Local</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free (Open Source)</span>
+                        <a href="https://openai.com/whisper" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Descript -->
+                <div class="tool-card" id="descript">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎬</div>
+                        <div class="tool-info">
+                            <h3><a href="https://descript.com" target="_blank" rel="noopener">Descript</a></h3>
+                            <span class="tool-tagline">Audio/Video Editor</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Edit audio/video by editing text. Overdub for voice cloning, filler word removal, Studio Sound.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Editing</span>
+                        <span class="tag">Overdub</span>
+                        <span class="tag">Transcription</span>
+                        <span class="tag">Podcasts</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $12/mo</span>
+                        <a href="https://descript.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Otter.ai -->
+                <div class="tool-card" id="otter">
+                    <div class="tool-header">
+                        <div class="tool-icon">🦦</div>
+                        <div class="tool-info">
+                            <h3><a href="https://otter.ai" target="_blank" rel="noopener">Otter.ai</a></h3>
+                            <span class="tool-tagline">Meeting Transcription</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI meeting notes and transcription. Integrates with Zoom, Meet, Teams. Action items extraction.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Meetings</span>
+                        <span class="tag">Transcription</span>
+                        <span class="tag">Summaries</span>
+                        <span class="tag">Action Items</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $17/mo</span>
+                        <a href="https://otter.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Image Tools Section -->
+        <section id="image-tools" class="tools-section" data-category="image">
+            <div class="section-header">
+                <h2 class="section-title">🎨 AI Image Tools</h2>
+            </div>
+            <div class="tools-grid">
+                <!-- Midjourney -->
+                <div class="tool-card featured" id="midjourney">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎨</div>
+                        <div class="tool-info">
+                            <h3><a href="https://midjourney.com" target="_blank" rel="noopener">Midjourney</a></h3>
+                            <span class="tool-tagline">Best Image Quality</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Premium AI image generation with stunning aesthetics. Discord or web interface. Industry standard.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Image Gen</span>
+                        <span class="tag">Artistic</span>
+                        <span class="tag">Premium</span>
+                        <span class="tag">Discord</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$10/mo</span>
+                        <a href="https://midjourney.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- DALL-E 3 -->
+                <div class="tool-card" id="dalle">
+                    <div class="tool-header">
+                        <div class="tool-icon">🖼️</div>
+                        <div class="tool-info">
+                            <h3><a href="https://openai.com/dall-e-3" target="_blank" rel="noopener">DALL-E 3</a></h3>
+                            <span class="tool-tagline">OpenAI Images</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Excellent prompt understanding and text rendering. Integrated into ChatGPT Plus.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Image Gen</span>
+                        <span class="tag">Text Render</span>
+                        <span class="tag">ChatGPT</span>
+                        <span class="tag">API</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">ChatGPT Plus / API</span>
+                        <a href="https://openai.com/dall-e-3" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Stable Diffusion -->
+                <div class="tool-card" id="stable-diffusion">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎭</div>
+                        <div class="tool-info">
+                            <h3><a href="https://stability.ai" target="_blank" rel="noopener">Stable Diffusion</a></h3>
+                            <span class="tool-tagline">Open Source</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Open-source image generation. Run locally, fine-tune models, no restrictions. Huge community.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Open Source</span>
+                        <span class="tag">Local</span>
+                        <span class="tag">Fine-Tune</span>
+                        <span class="tag">Community</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free (Open Source)</span>
+                        <a href="https://stability.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Ideogram -->
+                <div class="tool-card" id="ideogram">
+                    <div class="tool-header">
+                        <div class="tool-icon">💡</div>
+                        <div class="tool-info">
+                            <h3><a href="https://ideogram.ai" target="_blank" rel="noopener">Ideogram</a></h3>
+                            <span class="tool-tagline">Text in Images</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Excellent text rendering in images. Great for logos, posters, and designs with typography.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Image Gen</span>
+                        <span class="tag">Typography</span>
+                        <span class="tag">Logos</span>
+                        <span class="tag">Design</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $7/mo</span>
+                        <a href="https://ideogram.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Canva AI -->
+                <div class="tool-card" id="canva">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎨</div>
+                        <div class="tool-info">
+                            <h3><a href="https://canva.com" target="_blank" rel="noopener">Canva AI</a></h3>
+                            <span class="tool-tagline">Design Platform</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Magic Studio with AI image generation, background removal, and design suggestions.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Design</span>
+                        <span class="tag">Templates</span>
+                        <span class="tag">Magic Studio</span>
+                        <span class="tag">All-in-One</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $13/mo</span>
+                        <a href="https://canva.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Tools Section -->
+        <section id="video-tools" class="tools-section" data-category="video">
+            <div class="section-header">
+                <h2 class="section-title">🎬 AI Video Tools</h2>
+            </div>
+            <div class="tools-grid">
+                <!-- Runway -->
+                <div class="tool-card featured" id="runway">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎬</div>
+                        <div class="tool-info">
+                            <h3><a href="https://runway.ml" target="_blank" rel="noopener">Runway</a></h3>
+                            <span class="tool-tagline">Gen-3 Video AI</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Leading text-to-video and video editing AI. Gen-3 Alpha creates stunning video from text or image.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Text-to-Video</span>
+                        <span class="tag">Gen-3</span>
+                        <span class="tag">Editing</span>
+                        <span class="tag">VFX</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$12/mo</span>
+                        <a href="https://runway.ml" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Sora -->
+                <div class="tool-card" id="sora">
+                    <div class="tool-header">
+                        <div class="tool-icon">🌊</div>
+                        <div class="tool-info">
+                            <h3><a href="https://openai.com/sora" target="_blank" rel="noopener">Sora</a></h3>
+                            <span class="tool-tagline">OpenAI Video</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">OpenAI's text-to-video model. Creates realistic, minute-long videos from text descriptions.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Text-to-Video</span>
+                        <span class="tag">Realistic</span>
+                        <span class="tag">OpenAI</span>
+                        <span class="tag">Premium</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">ChatGPT Plus</span>
+                        <a href="https://openai.com/sora" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Pika -->
+                <div class="tool-card" id="pika">
+                    <div class="tool-header">
+                        <div class="tool-icon">⚡</div>
+                        <div class="tool-info">
+                            <h3><a href="https://pika.art" target="_blank" rel="noopener">Pika</a></h3>
+                            <span class="tool-tagline">Fast Video Gen</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Fast and accessible video generation. Image-to-video, video editing, and lip sync features.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Video Gen</span>
+                        <span class="tag">Fast</span>
+                        <span class="tag">Lip Sync</span>
+                        <span class="tag">Editing</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $8/mo</span>
+                        <a href="https://pika.art" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- HeyGen -->
+                <div class="tool-card" id="heygen">
+                    <div class="tool-header">
+                        <div class="tool-icon">👤</div>
+                        <div class="tool-info">
+                            <h3><a href="https://heygen.com" target="_blank" rel="noopener">HeyGen</a></h3>
+                            <span class="tool-tagline">AI Avatars</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Create videos with AI avatars. Custom avatar creation, instant translation, and lip sync.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Avatars</span>
+                        <span class="tag">Translation</span>
+                        <span class="tag">Business</span>
+                        <span class="tag">Training</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$24/mo</span>
+                        <a href="https://heygen.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Synthesia -->
+                <div class="tool-card" id="synthesia">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎥</div>
+                        <div class="tool-info">
+                            <h3><a href="https://synthesia.io" target="_blank" rel="noopener">Synthesia</a></h3>
+                            <span class="tool-tagline">Enterprise Video</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Enterprise AI video creation with digital avatars. Training videos, marketing, and localization.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Enterprise</span>
+                        <span class="tag">Training</span>
+                        <span class="tag">Avatars</span>
+                        <span class="tag">Localization</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$18/mo</span>
+                        <a href="https://synthesia.io" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comparison Table -->
+        <section id="compare" class="comparison-section">
+            <h2>🔥 AI Coding Agents Comparison 2025</h2>
+            <p>Side-by-side comparison of the top AI coding tools for developers</p>
+            
+            <div style="overflow-x: auto;">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Tool</th>
+                            <th>Type</th>
+                            <th>Price</th>
+                            <th>Context Window</th>
+                            <th>Agentic</th>
+                            <th>Open Source</th>
+                            <th>Best For</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Claude Code</strong></td>
+                            <td>CLI</td>
+                            <td>$20/mo or API</td>
+                            <td>200K tokens</td>
+                            <td class="check">✓</td>
+                            <td class="cross">✗</td>
+                            <td>Complex refactoring</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Cursor</strong></td>
+                            <td>IDE</td>
+                            <td>$20/mo</td>
+                            <td>Multi-model</td>
+                            <td class="check">✓</td>
+                            <td class="cross">✗</td>
+                            <td>All-around best UX</td>
+                        </tr>
+                        <tr>
+                            <td><strong>GitHub Copilot</strong></td>
+                            <td>Extension</td>
+                            <td>$10-39/mo</td>
+                            <td>8K tokens</td>
+                            <td class="check">✓</td>
+                            <td class="cross">✗</td>
+                            <td>Enterprise/security</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Windsurf</strong></td>
+                            <td>IDE</td>
+                            <td>Free/$15</td>
+                            <td>Multi-model</td>
+                            <td class="check">✓</td>
+                            <td class="cross">✗</td>
+                            <td>Budget-friendly</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Cline</strong></td>
+                            <td>Extension</td>
+                            <td>Free + API</td>
+                            <td>Multi-model</td>
+                            <td class="check">✓</td>
+                            <td class="check">✓</td>
+                            <td>Flexibility</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Aider</strong></td>
+                            <td>CLI</td>
+                            <td>Free + API</td>
+                            <td>Multi-model</td>
+                            <td class="cross">✗</td>
+                            <td class="check">✓</td>
+                            <td>Git workflows</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gemini CLI</strong></td>
+                            <td>CLI</td>
+                            <td>Free/API</td>
+                            <td>1M+ tokens</td>
+                            <td class="check">✓</td>
+                            <td class="check">✓</td>
+                            <td>Huge codebases</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Continue</strong></td>
+                            <td>Extension</td>
+                            <td>Free</td>
+                            <td>Multi-model</td>
+                            <td class="cross">✗</td>
+                            <td class="check">✓</td>
+                            <td>Local LLMs</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <h2>📬 Weekly AI Tools Digest</h2>
+            <p>Get the latest AI tool releases, comparisons, and exclusive deals delivered to your inbox.</p>
+            <form class="newsletter-form" action="#" method="POST">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <!-- Monetization CTAs -->
+        <section id="submit" class="monetization">
+            <div class="monetization-card">
+                <h3>🚀 Submit Your Tool</h3>
+                <p>Have an AI-native tool? Get listed in our directory and reach thousands of developers, creators, and businesses.</p>
+                <a href="mailto:submit@ai-native-tools.directory?subject=Tool Submission" class="btn btn-primary">Submit Free Listing</a>
+            </div>
+            <div class="monetization-card">
+                <h3>⭐ Get Featured</h3>
+                <p>Stand out with a featured listing, prominent placement, and dedicated review. Includes social promotion.</p>
+                <a href="mailto:featured@ai-native-tools.directory?subject=Featured Listing" class="btn btn-secondary">Get Featured — $99/mo</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 AI-Native Tools Directory. Built with ❤️ for the AI community.</p>
+            <p style="margin-top: 12px;">
+                <a href="/sitemap.xml">Sitemap</a> · 
+                <a href="mailto:hello@ai-native-tools.directory">Contact</a> · 
+                <a href="#">Privacy</a> · 
+                <a href="#">Terms</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Category filtering
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Update active state
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                const category = btn.dataset.category;
+                
+                // Show/hide sections
+                document.querySelectorAll('.tools-section').forEach(section => {
+                    if (category === 'all' || section.dataset.category === category) {
+                        section.style.display = 'block';
+                    } else {
+                        section.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Newsletter form
+        document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = this.querySelector('input[name="email"]').value;
+            alert('Thanks for subscribing! We\'ll send updates to ' + email);
+            this.reset();
+        });
+    </script>
+</body>
+</html>
