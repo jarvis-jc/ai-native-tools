@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Featured | $99/mo Premium Listing - AI-Native Tools Directory</title>
+    <meta name="description" content="Get a featured listing in the AI-Native Tools Directory. Premium placement, dedicated review, social promotion, and more for $99/month.">
+    <meta name="keywords" content="featured AI tool listing, premium listing, AI directory promotion, AI tool advertising">
+    <link rel="canonical" href="https://ai-native-tools.directory/featured.html">
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⭐</text></svg>">
+    
+    <style>
+        :root {
+            --primary: #6366f1;
+            --secondary: #10b981;
+            --accent: #f59e0b;
+            --bg: #0f172a;
+            --bg-card: #1e293b;
+            --bg-hover: #334155;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
+            --gold-gradient: linear-gradient(135deg, #f59e0b 0%, #fbbf24 50%, #f59e0b 100%);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+        .container { max-width: 900px; margin: 0 auto; padding: 0 24px; }
+        header { padding: 20px 0; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(10px); z-index: 100; }
+        .header-content { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        .logo { font-size: 1.5rem; font-weight: 700; background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
+        nav a { color: var(--text-muted); text-decoration: none; margin-left: 24px; font-weight: 500; }
+        
+        .hero { padding: 80px 0 40px; text-align: center; }
+        .hero h1 { font-size: 2.75rem; font-weight: 800; margin-bottom: 20px; background: var(--gold-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero p { color: var(--text-muted); font-size: 1.2rem; max-width: 600px; margin: 0 auto; }
+        
+        .pricing-card {
+            background: var(--bg-card);
+            border: 2px solid var(--accent);
+            border-radius: 24px;
+            padding: 48px;
+            margin: 40px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .pricing-card::before {
+            content: '⭐ FEATURED';
+            position: absolute;
+            top: 20px;
+            right: -35px;
+            background: var(--accent);
+            color: #000;
+            padding: 8px 40px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            transform: rotate(45deg);
+        }
+        .price { font-size: 4rem; font-weight: 800; color: var(--accent); }
+        .price span { font-size: 1.5rem; font-weight: 400; color: var(--text-muted); }
+        .price-note { color: var(--text-muted); margin-bottom: 32px; }
+        
+        .features-list {
+            text-align: left;
+            max-width: 500px;
+            margin: 32px auto;
+        }
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border);
+        }
+        .feature-item:last-child { border-bottom: none; }
+        .feature-icon { font-size: 1.5rem; flex-shrink: 0; }
+        .feature-text h4 { font-size: 1.1rem; margin-bottom: 4px; }
+        .feature-text p { color: var(--text-muted); font-size: 0.9rem; }
+        
+        .cta-btn {
+            display: inline-block;
+            background: var(--gold-gradient);
+            color: #000;
+            padding: 18px 48px;
+            border-radius: 12px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-decoration: none;
+            margin-top: 32px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .cta-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(245, 158, 11, 0.3);
+        }
+        
+        .comparison {
+            margin: 80px 0;
+        }
+        .comparison h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--bg-card);
+            border-radius: 16px;
+            overflow: hidden;
+        }
+        .comparison-table th, .comparison-table td {
+            padding: 20px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        .comparison-table th { background: var(--bg-hover); font-weight: 600; }
+        .comparison-table th:nth-child(3) { background: var(--accent); color: #000; }
+        .comparison-table td:nth-child(3) { background: rgba(245, 158, 11, 0.1); }
+        .check { color: var(--secondary); font-size: 1.25rem; }
+        .cross { color: #ef4444; font-size: 1.25rem; }
+        
+        .testimonials { margin: 80px 0; }
+        .testimonials h2 { text-align: center; margin-bottom: 40px; }
+        .testimonial-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+        .testimonial {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 24px;
+        }
+        .testimonial-text { color: var(--text-muted); margin-bottom: 16px; font-style: italic; }
+        .testimonial-author { font-weight: 600; }
+        .testimonial-role { color: var(--text-muted); font-size: 0.9rem; }
+        
+        .faq { margin: 80px 0; }
+        .faq h2 { text-align: center; margin-bottom: 40px; }
+        .faq-item { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 16px; padding: 20px; }
+        .faq-question { font-weight: 600; margin-bottom: 10px; }
+        .faq-answer { color: var(--text-muted); }
+        
+        .final-cta {
+            background: var(--gold-gradient);
+            padding: 60px;
+            border-radius: 24px;
+            text-align: center;
+            margin: 60px 0;
+        }
+        .final-cta h2 { color: #000; margin-bottom: 16px; }
+        .final-cta p { color: rgba(0,0,0,0.7); margin-bottom: 24px; }
+        .final-cta .btn {
+            background: var(--bg);
+            color: var(--text);
+            padding: 16px 40px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 600;
+            display: inline-block;
+        }
+        
+        footer { border-top: 1px solid var(--border); padding: 40px 0; text-align: center; color: var(--text-muted); }
+        footer a { color: var(--text-muted); text-decoration: none; }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .price { font-size: 3rem; }
+            .testimonial-grid { grid-template-columns: 1fr; }
+            nav { display: none; }
+            .final-cta { padding: 40px 24px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="/" class="logo">🤖 AI-Native Tools</a>
+            <nav>
+                <a href="/coding-tools.html">Coding</a>
+                <a href="/writing-tools.html">Writing</a>
+                <a href="/submit.html">Free Submit</a>
+                <a href="/featured.html">Get Featured</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>⭐ Get Featured</h1>
+            <p>Stand out from 75+ AI tools with premium placement, dedicated reviews, and guaranteed visibility to thousands of potential users.</p>
+        </section>
+
+        <div class="pricing-card">
+            <div class="price">$99<span>/month</span></div>
+            <p class="price-note">Cancel anytime • Includes all benefits below</p>
+            
+            <div class="features-list">
+                <div class="feature-item">
+                    <div class="feature-icon">⭐</div>
+                    <div class="feature-text">
+                        <h4>Featured Badge</h4>
+                        <p>Eye-catching gold badge that immediately draws attention to your listing.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📍</div>
+                    <div class="feature-text">
+                        <h4>Top Category Placement</h4>
+                        <p>Your tool appears first in its category, above all free listings.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📊</div>
+                    <div class="feature-text">
+                        <h4>Comparison Table Inclusion</h4>
+                        <p>Featured in the main comparison tables with detailed feature breakdown.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📱</div>
+                    <div class="feature-text">
+                        <h4>Social Media Promotion</h4>
+                        <p>Dedicated post announcing your tool to our social media followers.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">🔗</div>
+                    <div class="feature-text">
+                        <h4>Premium Backlink</h4>
+                        <p>High-quality dofollow backlink with optimized anchor text for SEO.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📰</div>
+                    <div class="feature-text">
+                        <h4>Newsletter Feature</h4>
+                        <p>Highlighted in our weekly AI tools digest sent to subscribers.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="mailto:featured@ai-native-tools.directory?subject=Featured Listing Request" class="cta-btn">Get Featured Now →</a>
+        </div>
+
+        <section class="comparison">
+            <h2>Free vs Featured Comparison</h2>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Free Listing</th>
+                        <th>⭐ Featured ($99/mo)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Directory listing</td>
+                        <td><span class="check">✓</span></td>
+                        <td><span class="check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Basic backlink</td>
+                        <td><span class="check">✓</span></td>
+                        <td><span class="check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Featured badge</td>
+                        <td><span class="cross">✗</span></td>
+                        <td><span class="check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Top category placement</td>
+                        <td><span class="cross">✗</span></td>
+                        <td><span class="check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Comparison table</td>
+                        <td><span class="cross">✗</span></td>
+                        <td><span class="check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Social promotion</td>
+                        <td><span class="cross">✗</span></td>
+                        <td><span class="check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Newsletter feature</td>
+                        <td><span class="cross">✗</span></td>
+                        <td><span class="check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Premium SEO backlink</td>
+                        <td><span class="cross">✗</span></td>
+                        <td><span class="check">✓</span></td>
+                    </tr>
+                    <tr>
+                        <td>Priority support</td>
+                        <td><span class="cross">✗</span></td>
+                        <td><span class="check">✓</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Featured Tools Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial">
+                    <p class="testimonial-text">"The featured listing drove 40% more signups in the first month. The comparison table inclusion was especially valuable for positioning against competitors."</p>
+                    <div class="testimonial-author">Sarah Chen</div>
+                    <div class="testimonial-role">Founder, AI Startup</div>
+                </div>
+                <div class="testimonial">
+                    <p class="testimonial-text">"Best ROI we've seen from any directory listing. The SEO backlink alone is worth it, plus the social promotion brought in qualified leads."</p>
+                    <div class="testimonial-author">Marcus Rodriguez</div>
+                    <div class="testimonial-role">Marketing Lead, Dev Tool</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">How quickly will my featured listing go live?</div>
+                <div class="faq-answer">Featured listings are processed within 24-48 hours of payment confirmation. We'll email you when you're live.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Can I cancel anytime?</div>
+                <div class="faq-answer">Yes, you can cancel at any time. Your featured status will remain active until the end of your billing period, then revert to a free listing.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">How many featured spots are available?</div>
+                <div class="faq-answer">We limit featured listings to 3 per category to maintain exclusivity. Once a category is full, you'll be added to a waitlist.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">What payment methods do you accept?</div>
+                <div class="faq-answer">We accept all major credit cards through Stripe. Annual plans (2 months free) are also available.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Do you offer refunds?</div>
+                <div class="faq-answer">We offer a full refund within 7 days if you're not satisfied with the featured placement.</div>
+            </div>
+        </section>
+
+        <section class="final-cta">
+            <h2>Ready to Stand Out?</h2>
+            <p>Join the top AI tools getting premium visibility and more qualified users.</p>
+            <a href="mailto:featured@ai-native-tools.directory?subject=Featured Listing Request" class="btn">Get Featured — $99/mo →</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 AI-Native Tools Directory</p>
+            <p style="margin-top: 12px;">
+                <a href="/">Home</a> · 
+                <a href="/submit.html">Free Submit</a> · 
+                <a href="/featured.html">Featured</a> · 
+                <a href="mailto:hello@ai-native-tools.directory">Contact</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Your AI Tool | Free Listing - AI-Native Tools Directory</title>
+    <meta name="description" content="Submit your AI tool for free listing in the AI-Native Tools Directory. Reach thousands of developers, creators, and businesses looking for AI tools.">
+    <meta name="keywords" content="submit AI tool, list AI tool, AI directory submission, promote AI product">
+    <link rel="canonical" href="https://ai-native-tools.directory/submit.html">
+    
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    
+    <style>
+        :root {
+            --primary: #6366f1;
+            --secondary: #10b981;
+            --accent: #f59e0b;
+            --bg: #0f172a;
+            --bg-card: #1e293b;
+            --bg-hover: #334155;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #334155;
+            --gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #d946ef 100%);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+        .container { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+        header { padding: 20px 0; border-bottom: 1px solid var(--border); position: sticky; top: 0; background: rgba(15, 23, 42, 0.95); backdrop-filter: blur(10px); z-index: 100; }
+        .header-content { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        .logo { font-size: 1.5rem; font-weight: 700; background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
+        nav a { color: var(--text-muted); text-decoration: none; margin-left: 24px; font-weight: 500; }
+        
+        .hero { padding: 80px 0 40px; text-align: center; }
+        .hero h1 { font-size: 2.75rem; font-weight: 800; margin-bottom: 20px; background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero p { color: var(--text-muted); font-size: 1.2rem; max-width: 600px; margin: 0 auto; }
+        
+        .benefits { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin: 60px 0; }
+        .benefit { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; text-align: center; }
+        .benefit-icon { font-size: 2rem; margin-bottom: 12px; }
+        .benefit h3 { font-size: 1.1rem; margin-bottom: 8px; }
+        .benefit p { color: var(--text-muted); font-size: 0.9rem; }
+        
+        .form-section { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 40px; margin: 40px 0; }
+        .form-section h2 { font-size: 1.5rem; margin-bottom: 24px; }
+        
+        .form-group { margin-bottom: 24px; }
+        .form-group label { display: block; margin-bottom: 8px; font-weight: 500; }
+        .form-group label span { color: #ef4444; }
+        .form-group input, .form-group textarea, .form-group select {
+            width: 100%;
+            padding: 14px 16px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: var(--text);
+            font-size: 1rem;
+            font-family: inherit;
+        }
+        .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+        .form-group textarea { min-height: 120px; resize: vertical; }
+        .form-group small { display: block; margin-top: 6px; color: var(--text-muted); font-size: 0.85rem; }
+        
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+        
+        .submit-btn {
+            background: var(--gradient);
+            color: white;
+            padding: 16px 32px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 40px rgba(99, 102, 241, 0.3);
+        }
+        
+        .featured-cta { background: var(--bg-hover); border: 2px solid var(--accent); border-radius: 16px; padding: 30px; margin: 40px 0; text-align: center; }
+        .featured-cta h3 { color: var(--accent); margin-bottom: 12px; }
+        .featured-cta p { color: var(--text-muted); margin-bottom: 20px; }
+        .featured-cta a { color: var(--accent); font-weight: 600; text-decoration: none; }
+        
+        .faq { margin: 60px 0; }
+        .faq h2 { margin-bottom: 24px; }
+        .faq-item { background: var(--bg-card); border: 1px solid var(--border); border-radius: 12px; margin-bottom: 16px; padding: 20px; }
+        .faq-question { font-weight: 600; margin-bottom: 10px; }
+        .faq-answer { color: var(--text-muted); }
+        
+        footer { border-top: 1px solid var(--border); padding: 40px 0; text-align: center; color: var(--text-muted); }
+        footer a { color: var(--text-muted); text-decoration: none; }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .benefits { grid-template-columns: 1fr; }
+            .form-row { grid-template-columns: 1fr; }
+            nav { display: none; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="/" class="logo">🤖 AI-Native Tools</a>
+            <nav>
+                <a href="/coding-tools.html">Coding</a>
+                <a href="/writing-tools.html">Writing</a>
+                <a href="/research-tools.html">Research</a>
+                <a href="/featured.html">Get Featured</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <h1>🚀 Submit Your AI Tool</h1>
+            <p>Get your AI tool listed in our directory for free. Reach thousands of developers, creators, and businesses looking for the best AI tools.</p>
+        </section>
+
+        <div class="benefits">
+            <div class="benefit">
+                <div class="benefit-icon">👀</div>
+                <h3>Visibility</h3>
+                <p>Reach thousands of monthly visitors actively searching for AI tools.</p>
+            </div>
+            <div class="benefit">
+                <div class="benefit-icon">🔗</div>
+                <h3>SEO Backlink</h3>
+                <p>Get a high-quality dofollow backlink from our directory.</p>
+            </div>
+            <div class="benefit">
+                <div class="benefit-icon">📈</div>
+                <h3>Credibility</h3>
+                <p>Be featured alongside industry-leading AI tools.</p>
+            </div>
+        </div>
+
+        <section class="form-section">
+            <h2>Submit Your Tool</h2>
+            <form id="submit-form" action="https://formspree.io/f/your-form-id" method="POST">
+                <div class="form-group">
+                    <label>Tool Name <span>*</span></label>
+                    <input type="text" name="tool_name" required placeholder="e.g., Claude Code">
+                </div>
+
+                <div class="form-group">
+                    <label>Website URL <span>*</span></label>
+                    <input type="url" name="website" required placeholder="https://your-tool.com">
+                </div>
+
+                <div class="form-group">
+                    <label>Tagline <span>*</span></label>
+                    <input type="text" name="tagline" required placeholder="A short, catchy description (max 60 characters)" maxlength="60">
+                    <small>Brief positioning statement, e.g., "AI-First IDE for Developers"</small>
+                </div>
+
+                <div class="form-group">
+                    <label>Description <span>*</span></label>
+                    <textarea name="description" required placeholder="Describe what your tool does, key features, and what makes it unique (150-300 characters)"></textarea>
+                    <small>2-3 sentences about your tool's main value proposition.</small>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Category <span>*</span></label>
+                        <select name="category" required>
+                            <option value="">Select category...</option>
+                            <option value="coding">💻 Coding Agents</option>
+                            <option value="writing">✍️ Writing</option>
+                            <option value="research">🔬 Research</option>
+                            <option value="automation">⚡ Automation</option>
+                            <option value="browser">🌐 Browser</option>
+                            <option value="voice">🎙️ Voice</option>
+                            <option value="image">🎨 Image</option>
+                            <option value="video">🎬 Video</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Pricing <span>*</span></label>
+                        <input type="text" name="pricing" required placeholder="e.g., Free / $20/mo or Free tier + $49/mo">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Key Features (comma-separated)</label>
+                    <input type="text" name="features" placeholder="e.g., Agentic, 200K Context, Multi-Model, API">
+                    <small>3-5 key features or tags that describe your tool.</small>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Your Name <span>*</span></label>
+                        <input type="text" name="contact_name" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label>Email <span>*</span></label>
+                        <input type="email" name="contact_email" required placeholder="your@email.com">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Twitter/X Handle (optional)</label>
+                    <input type="text" name="twitter" placeholder="@yourtool">
+                </div>
+
+                <div class="form-group">
+                    <label>Additional Notes (optional)</label>
+                    <textarea name="notes" placeholder="Anything else you'd like us to know about your tool..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit for Free Listing</button>
+            </form>
+        </section>
+
+        <div class="featured-cta">
+            <h3>⭐ Want to Stand Out?</h3>
+            <p>Get a featured listing with prominent placement, dedicated review, and social promotion.</p>
+            <a href="/featured.html">Learn about Featured Listings — $99/mo →</a>
+        </div>
+
+        <section class="faq">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <div class="faq-question">How long does it take to get listed?</div>
+                <div class="faq-answer">We review submissions within 3-5 business days. You'll receive an email confirmation when your tool is live.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Is the basic listing really free?</div>
+                <div class="faq-answer">Yes! Basic listings are completely free. We believe in helping the AI ecosystem grow. Featured placements are available for $99/mo if you want extra visibility.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">What's the difference between free and featured?</div>
+                <div class="faq-answer">Free listings appear in the main directory. Featured listings get: ⭐ badge, top placement in category, dedicated comparison mention, social media promotion, and a dofollow backlink boost.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">What tools do you accept?</div>
+                <div class="faq-answer">We accept AI-native tools that use artificial intelligence as a core feature. This includes coding assistants, writing tools, image generators, automation platforms, and more. We review each submission for quality and relevance.</div>
+            </div>
+            
+            <div class="faq-item">
+                <div class="faq-question">Can I update my listing later?</div>
+                <div class="faq-answer">Yes! Just email us at submit@ai-native-tools.directory with your updates and we'll make the changes within 2 business days.</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 AI-Native Tools Directory</p>
+            <p style="margin-top: 12px;">
+                <a href="/">Home</a> · 
+                <a href="/submit.html">Submit</a> · 
+                <a href="/featured.html">Featured</a> · 
+                <a href="mailto:hello@ai-native-tools.directory">Contact</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('submit-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            alert('Thanks for your submission! We\'ll review "' + formData.get('tool_name') + '" and get back to you within 3-5 business days.');
+            // In production, this would submit to Formspree or similar
+        });
+    </script>
+</body>
+</html>

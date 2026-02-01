@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI-Native Tools Directory 2025 | Best AI Coding, Writing, Research & Automation Tools</title>
-    <meta name="description" content="The definitive directory of AI-native tools. Compare 45+ AI coding agents, writing assistants, research tools, and automation platforms with pricing, features, and expert reviews.">
+    <meta name="description" content="The definitive directory of AI-native tools. Compare 75+ AI coding agents, writing assistants, research tools, and automation platforms with pricing, features, and expert reviews.">
     <meta name="keywords" content="AI tools, AI coding agents, Claude Code, Cursor, ChatGPT, Perplexity, AI writing, AI automation, AI directory">
     <meta name="author" content="AI-Native Tools Directory">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://ai-native-tools.directory/">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="AI-Native Tools Directory 2025 | 45+ Tools Compared">
+    <meta property="og:title" content="AI-Native Tools Directory 2025 | 75+ Tools Compared">
     <meta property="og:description" content="The definitive directory of AI-native tools. Compare AI coding agents, writing assistants, research tools, and automation platforms.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ai-native-tools.directory/">
@@ -20,7 +20,7 @@
     
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="AI-Native Tools Directory 2025 | 45+ Tools Compared">
+    <meta name="twitter:title" content="AI-Native Tools Directory 2025 | 75+ Tools Compared">
     <meta name="twitter:description" content="The definitive directory of AI-native tools. Compare AI coding agents, writing assistants, research tools, and automation platforms.">
     <meta name="twitter:image" content="https://ai-native-tools.directory/og-image.png">
     
@@ -35,7 +35,7 @@
         "mainEntity": {
             "@type": "ItemList",
             "name": "AI-Native Tools",
-            "numberOfItems": 45,
+            "numberOfItems": 75,
             "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Claude Code", "url": "#claude-code"},
                 {"@type": "ListItem", "position": 2, "name": "Cursor", "url": "#cursor"},
@@ -48,6 +48,48 @@
             "@type": "Organization",
             "name": "AI-Native Tools Directory"
         }
+    }
+    </script>
+    
+    <!-- FAQ Schema for GEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What are AI-native tools?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "AI-native tools are software applications built from the ground up with artificial intelligence as their core functionality. Unlike traditional software with AI features added later, AI-native tools use machine learning and large language models as their primary value proposition. Examples include AI coding assistants like Claude Code and Cursor, AI writing tools like Jasper, and AI research tools like Perplexity."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is the best AI coding tool in 2025?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The best AI coding tool depends on your needs. Cursor offers the best all-around UX for daily coding. Claude Code excels at complex refactoring with 80.9% SWE-bench score. GitHub Copilot is best for enterprise security. Windsurf offers the best free tier. Most professional developers use multiple tools for different tasks."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How much do AI tools cost?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "AI tools range from free to $50+/month. Many offer free tiers with limited usage. Popular pricing: ChatGPT/Claude at $20/month, Cursor/Windsurf at $15-20/month, Midjourney at $10/month. Enterprise plans typically cost $20-50/user/month. Open-source tools like Stable Diffusion and Whisper are free to use."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Are AI tools worth the subscription cost?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "For professionals, yes. Studies show AI coding tools improve productivity by 30-50%. At $20/month, even saving 1-2 hours weekly makes them worthwhile. AI writing tools can 2-5x content output. The ROI is typically positive within the first month of professional use."
+                }
+            }
+        ]
     }
     </script>
     
@@ -546,6 +588,79 @@
             color: var(--text);
         }
         
+        /* Definition Box - GEO */
+        .definition-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-left: 4px solid var(--primary);
+            border-radius: 12px;
+            padding: 30px;
+            margin: 40px 0;
+        }
+        
+        .definition-box h2 {
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+        
+        .definition-box p {
+            color: var(--text-muted);
+            font-size: 1.05rem;
+            line-height: 1.7;
+        }
+        
+        /* FAQ Section */
+        .faq-section {
+            padding: 60px 0;
+            border-top: 1px solid var(--border);
+        }
+        
+        .faq-section h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .faq-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+            gap: 20px;
+        }
+        
+        .faq-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+        }
+        
+        .faq-question {
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 12px;
+            color: var(--text);
+        }
+        
+        .faq-answer {
+            color: var(--text-muted);
+            line-height: 1.6;
+        }
+        
+        /* Category Links */
+        .category-link {
+            display: inline-block;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: auto;
+            font-size: 0.9rem;
+        }
+        
+        .category-link:hover {
+            text-decoration: underline;
+        }
+        
         /* Responsive */
         @media (max-width: 768px) {
             .hero h1 {
@@ -580,6 +695,10 @@
             .comparison-table {
                 font-size: 0.85rem;
             }
+            
+            .faq-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -588,12 +707,12 @@
         <div class="container header-content">
             <div class="logo">🤖 AI-Native Tools</div>
             <nav>
-                <a href="#coding">Coding</a>
-                <a href="#writing">Writing</a>
-                <a href="#research">Research</a>
-                <a href="#automation">Automation</a>
+                <a href="/coding-tools.html">Coding</a>
+                <a href="/writing-tools.html">Writing</a>
+                <a href="/research-tools.html">Research</a>
+                <a href="/automation-tools.html">Automation</a>
                 <a href="#compare">Compare</a>
-                <a href="#submit" class="cta-btn">Submit Tool</a>
+                <a href="/submit.html" class="cta-btn">Submit Tool</a>
             </nav>
         </div>
     </header>
@@ -606,7 +725,7 @@
             
             <div class="hero-stats">
                 <div class="stat">
-                    <div class="stat-number">45+</div>
+                    <div class="stat-number">75+</div>
                     <div class="stat-label">AI Tools Listed</div>
                 </div>
                 <div class="stat">
@@ -633,10 +752,17 @@
             </div>
         </section>
 
+        <!-- Definition Box - GEO Optimization -->
+        <div class="definition-box">
+            <h2>What are AI-Native Tools?</h2>
+            <p><strong>AI-native tools</strong> are software applications built from the ground up with artificial intelligence as their core functionality. Unlike traditional software with AI features added later, these tools use machine learning and large language models (LLMs) as their primary value proposition. Categories include <strong>AI coding assistants</strong> (Claude Code, Cursor, GitHub Copilot), <strong>AI writing tools</strong> (ChatGPT, Claude, Jasper), <strong>AI research tools</strong> (Perplexity, Elicit), and <strong>AI creative tools</strong> for image, video, and audio generation. In 2025, AI-native tools have become essential for developers, writers, researchers, and creators seeking to enhance productivity and capabilities.</p>
+        </div>
+
         <!-- Coding Agents Section -->
         <section id="coding" class="tools-section" data-category="coding">
             <div class="section-header">
                 <h2 class="section-title">💻 AI Coding Agents</h2>
+                <a href="/coding-tools.html" class="category-link">View all 15+ coding tools →</a>
             </div>
             <div class="tools-grid">
                 <!-- Claude Code -->
@@ -858,6 +984,94 @@
                         <a href="https://replit.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
                     </div>
                 </div>
+
+                <!-- Lovable -->
+                <div class="tool-card" id="lovable">
+                    <div class="tool-header">
+                        <div class="tool-icon">💜</div>
+                        <div class="tool-info">
+                            <h3><a href="https://lovable.dev" target="_blank" rel="noopener">Lovable</a></h3>
+                            <span class="tool-tagline">Chat-to-App Builder</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Chat-driven full-stack app generation with GitHub sync and one-click deploys. Best for prototypes and internal tools.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Full-Stack</span>
+                        <span class="tag">No-Code</span>
+                        <span class="tag">GitHub</span>
+                        <span class="tag">Deploy</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$20/mo</span>
+                        <a href="https://lovable.dev" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- v0 -->
+                <div class="tool-card" id="v0">
+                    <div class="tool-header">
+                        <div class="tool-icon">🔺</div>
+                        <div class="tool-info">
+                            <h3><a href="https://v0.dev" target="_blank" rel="noopener">v0 by Vercel</a></h3>
+                            <span class="tool-tagline">AI UI Generation</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Generate React/Next.js UI components from text or images. Exports clean shadcn/ui code. Best for frontend prototyping.</p>
+                    <div class="tool-tags">
+                        <span class="tag">UI Gen</span>
+                        <span class="tag">React</span>
+                        <span class="tag">shadcn/ui</span>
+                        <span class="tag">Vercel</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $20/mo</span>
+                        <a href="https://v0.dev" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Bolt -->
+                <div class="tool-card" id="bolt">
+                    <div class="tool-header">
+                        <div class="tool-icon">⚡</div>
+                        <div class="tool-info">
+                            <h3><a href="https://bolt.new" target="_blank" rel="noopener">Bolt.new</a></h3>
+                            <span class="tool-tagline">StackBlitz AI Builder</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Browser-based AI app builder from StackBlitz. Generate full apps from prompts with instant WebContainers runtime.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Browser</span>
+                        <span class="tag">Full-Stack</span>
+                        <span class="tag">WebContainers</span>
+                        <span class="tag">Instant</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $20/mo</span>
+                        <a href="https://bolt.new" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Supermaven -->
+                <div class="tool-card" id="supermaven">
+                    <div class="tool-header">
+                        <div class="tool-icon">🚀</div>
+                        <div class="tool-info">
+                            <h3><a href="https://supermaven.com" target="_blank" rel="noopener">Supermaven</a></h3>
+                            <span class="tool-tagline">Fastest Autocomplete</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Lightning-fast code completion from former Tabnine CTO. Claims 300ms latency with 1M token context window.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Autocomplete</span>
+                        <span class="tag">Fast</span>
+                        <span class="tag">1M Context</span>
+                        <span class="tag">VS Code</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free / $10/mo</span>
+                        <a href="https://supermaven.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -865,6 +1079,7 @@
         <section id="writing" class="tools-section" data-category="writing">
             <div class="section-header">
                 <h2 class="section-title">✍️ AI Writing Tools</h2>
+                <a href="/writing-tools.html" class="category-link">View all 12+ writing tools →</a>
             </div>
             <div class="tools-grid">
                 <!-- Claude -->
@@ -1020,6 +1235,72 @@
                         <a href="https://grammarly.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
                     </div>
                 </div>
+
+                <!-- Rytr -->
+                <div class="tool-card" id="rytr">
+                    <div class="tool-header">
+                        <div class="tool-icon">✏️</div>
+                        <div class="tool-info">
+                            <h3><a href="https://rytr.me" target="_blank" rel="noopener">Rytr</a></h3>
+                            <span class="tool-tagline">Budget-Friendly Writer</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Affordable AI writing assistant with 40+ templates. Great for small businesses and individual creators on a budget.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Budget</span>
+                        <span class="tag">Templates</span>
+                        <span class="tag">Multi-Language</span>
+                        <span class="tag">Chrome</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free / $9/mo</span>
+                        <a href="https://rytr.me" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Gemini -->
+                <div class="tool-card" id="gemini">
+                    <div class="tool-header">
+                        <div class="tool-icon">💎</div>
+                        <div class="tool-info">
+                            <h3><a href="https://gemini.google.com" target="_blank" rel="noopener">Gemini</a></h3>
+                            <span class="tool-tagline">Google's AI (1M Context)</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Google's multimodal AI with massive 1M+ context window. Deep Google Workspace integration. Great for research and analysis.</p>
+                    <div class="tool-tags">
+                        <span class="tag">General AI</span>
+                        <span class="tag">1M Context</span>
+                        <span class="tag">Google Suite</span>
+                        <span class="tag">Multimodal</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $20/mo</span>
+                        <a href="https://gemini.google.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Wordtune -->
+                <div class="tool-card" id="wordtune">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎯</div>
+                        <div class="tool-info">
+                            <h3><a href="https://wordtune.com" target="_blank" rel="noopener">Wordtune</a></h3>
+                            <span class="tool-tagline">Rewriting Expert</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI-powered rewriting tool. Adjust tone (formal/casual), expand or shorten text, and improve clarity.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Rewriting</span>
+                        <span class="tag">Tone</span>
+                        <span class="tag">Chrome</span>
+                        <span class="tag">Editor</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $10/mo</span>
+                        <a href="https://wordtune.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -1027,6 +1308,7 @@
         <section id="research" class="tools-section" data-category="research">
             <div class="section-header">
                 <h2 class="section-title">🔬 AI Research Tools</h2>
+                <a href="/research-tools.html" class="category-link">View all 10+ research tools →</a>
             </div>
             <div class="tools-grid">
                 <!-- Perplexity -->
@@ -1160,6 +1442,94 @@
                         <a href="https://scite.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
                     </div>
                 </div>
+
+                <!-- You.com -->
+                <div class="tool-card" id="you">
+                    <div class="tool-header">
+                        <div class="tool-icon">🌐</div>
+                        <div class="tool-info">
+                            <h3><a href="https://you.com" target="_blank" rel="noopener">You.com</a></h3>
+                            <span class="tool-tagline">AI Search with Apps</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI-powered search with YouChat assistant. Includes specialized apps for coding, writing, and image generation.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Search</span>
+                        <span class="tag">Apps</span>
+                        <span class="tag">Chat</span>
+                        <span class="tag">Privacy</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $15/mo</span>
+                        <a href="https://you.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- ChatPDF -->
+                <div class="tool-card" id="chatpdf">
+                    <div class="tool-header">
+                        <div class="tool-icon">📄</div>
+                        <div class="tool-info">
+                            <h3><a href="https://chatpdf.com" target="_blank" rel="noopener">ChatPDF</a></h3>
+                            <span class="tool-tagline">Chat with PDFs</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Upload any PDF and chat with it. Extract information, summarize sections, and ask questions about documents.</p>
+                    <div class="tool-tags">
+                        <span class="tag">PDF</span>
+                        <span class="tag">Chat</span>
+                        <span class="tag">Summarize</span>
+                        <span class="tag">Simple</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $5/mo</span>
+                        <a href="https://chatpdf.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Connected Papers -->
+                <div class="tool-card" id="connectedpapers">
+                    <div class="tool-header">
+                        <div class="tool-icon">🔗</div>
+                        <div class="tool-info">
+                            <h3><a href="https://connectedpapers.com" target="_blank" rel="noopener">Connected Papers</a></h3>
+                            <span class="tool-tagline">Visual Paper Exploration</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Visual tool to explore academic papers. Creates graph visualizations showing connections between papers.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Visualization</span>
+                        <span class="tag">Discovery</span>
+                        <span class="tag">Graphs</span>
+                        <span class="tag">Academic</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $6/mo</span>
+                        <a href="https://connectedpapers.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Humata -->
+                <div class="tool-card" id="humata">
+                    <div class="tool-header">
+                        <div class="tool-icon">📁</div>
+                        <div class="tool-info">
+                            <h3><a href="https://humata.ai" target="_blank" rel="noopener">Humata</a></h3>
+                            <span class="tool-tagline">Enterprise Doc AI</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI for enterprise document analysis. Chat with contracts, reports, and technical documents. Security focused.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Enterprise</span>
+                        <span class="tag">Documents</span>
+                        <span class="tag">Security</span>
+                        <span class="tag">Contracts</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $15/mo</span>
+                        <a href="https://humata.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -1167,6 +1537,7 @@
         <section id="automation" class="tools-section" data-category="automation">
             <div class="section-header">
                 <h2 class="section-title">⚡ AI Automation Tools</h2>
+                <a href="/automation-tools.html" class="category-link">View all 10+ automation tools →</a>
             </div>
             <div class="tools-grid">
                 <!-- Zapier AI -->
@@ -1278,6 +1649,94 @@
                         <a href="https://clay.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
                     </div>
                 </div>
+
+                <!-- Activepieces -->
+                <div class="tool-card" id="activepieces">
+                    <div class="tool-header">
+                        <div class="tool-icon">🧩</div>
+                        <div class="tool-info">
+                            <h3><a href="https://activepieces.com" target="_blank" rel="noopener">Activepieces</a></h3>
+                            <span class="tool-tagline">Open Source Automation</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Open-source automation platform. Type-safe pieces, AI-powered automation builder. Growing Zapier alternative.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Open Source</span>
+                        <span class="tag">Self-Hosted</span>
+                        <span class="tag">AI Builder</span>
+                        <span class="tag">Free</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free (Self-Host)</span>
+                        <a href="https://activepieces.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Instantly -->
+                <div class="tool-card" id="instantly">
+                    <div class="tool-header">
+                        <div class="tool-icon">📧</div>
+                        <div class="tool-info">
+                            <h3><a href="https://instantly.ai" target="_blank" rel="noopener">Instantly</a></h3>
+                            <span class="tool-tagline">Cold Email at Scale</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI-powered cold email platform. Unlimited email accounts, AI personalization, and deliverability optimization.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Email</span>
+                        <span class="tag">Cold Outreach</span>
+                        <span class="tag">AI Writing</span>
+                        <span class="tag">Sales</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">$37/mo</span>
+                        <a href="https://instantly.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Relevance AI -->
+                <div class="tool-card" id="relevance">
+                    <div class="tool-header">
+                        <div class="tool-icon">🧠</div>
+                        <div class="tool-info">
+                            <h3><a href="https://relevanceai.com" target="_blank" rel="noopener">Relevance AI</a></h3>
+                            <span class="tool-tagline">AI Agent Builder</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Build AI agents that work for your business. Connect tools, train on your data, deploy for sales or support.</p>
+                    <div class="tool-tags">
+                        <span class="tag">AI Agents</span>
+                        <span class="tag">Custom</span>
+                        <span class="tag">Tools</span>
+                        <span class="tag">No-Code</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $19/mo</span>
+                        <a href="https://relevanceai.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Axiom -->
+                <div class="tool-card" id="axiom">
+                    <div class="tool-header">
+                        <div class="tool-icon">🖱️</div>
+                        <div class="tool-info">
+                            <h3><a href="https://axiom.ai" target="_blank" rel="noopener">Axiom.ai</a></h3>
+                            <span class="tool-tagline">No-Code Browser Bots</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Build browser bots without code. Record actions, add AI steps, run in cloud or locally. Great for scraping.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Browser Bots</span>
+                        <span class="tag">Recording</span>
+                        <span class="tag">No-Code</span>
+                        <span class="tag">Scraping</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $15/mo</span>
+                        <a href="https://axiom.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -1285,6 +1744,7 @@
         <section id="browser-tools" class="tools-section" data-category="browser">
             <div class="section-header">
                 <h2 class="section-title">🌐 AI Browser Tools</h2>
+                <a href="/browser-tools.html" class="category-link">View all 8+ browser tools →</a>
             </div>
             <div class="tools-grid">
                 <!-- Browserbase -->
@@ -1352,6 +1812,50 @@
                         <a href="https://arc.net" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
                     </div>
                 </div>
+
+                <!-- Operator -->
+                <div class="tool-card" id="operator">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎯</div>
+                        <div class="tool-info">
+                            <h3><a href="https://openai.com/operator" target="_blank" rel="noopener">Operator (OpenAI)</a></h3>
+                            <span class="tool-tagline">AI Browser Agent</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">OpenAI's autonomous browser agent. Complete web tasks via natural language: book reservations, fill forms, research.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Browser Agent</span>
+                        <span class="tag">OpenAI</span>
+                        <span class="tag">Autonomous</span>
+                        <span class="tag">Tasks</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">ChatGPT Pro</span>
+                        <a href="https://openai.com/operator" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Monica -->
+                <div class="tool-card" id="monica">
+                    <div class="tool-header">
+                        <div class="tool-icon">📌</div>
+                        <div class="tool-info">
+                            <h3><a href="https://monica.im" target="_blank" rel="noopener">Monica</a></h3>
+                            <span class="tool-tagline">AI Sidebar Extension</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI assistant in any tab. Chat with GPT-4, Claude on any webpage. Summarize, translate, write from a sidebar.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Extension</span>
+                        <span class="tag">Multi-Model</span>
+                        <span class="tag">Sidebar</span>
+                        <span class="tag">All-in-One</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $10/mo</span>
+                        <a href="https://monica.im" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -1359,6 +1863,7 @@
         <section id="voice-tools" class="tools-section" data-category="voice">
             <div class="section-header">
                 <h2 class="section-title">🎙️ AI Voice Tools</h2>
+                <a href="/voice-tools.html" class="category-link">View all 10+ voice tools →</a>
             </div>
             <div class="tools-grid">
                 <!-- ElevenLabs -->
@@ -1448,6 +1953,50 @@
                         <a href="https://otter.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
                     </div>
                 </div>
+
+                <!-- PlayHT -->
+                <div class="tool-card" id="playht">
+                    <div class="tool-header">
+                        <div class="tool-icon">▶️</div>
+                        <div class="tool-info">
+                            <h3><a href="https://play.ht" target="_blank" rel="noopener">PlayHT</a></h3>
+                            <span class="tool-tagline">Ultra-Realistic TTS</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI voice generator with ultra-realistic voices. PlayHT 2.0 engine, instant voice cloning, and podcast hosting.</p>
+                    <div class="tool-tags">
+                        <span class="tag">TTS</span>
+                        <span class="tag">Voice Clone</span>
+                        <span class="tag">Podcast</span>
+                        <span class="tag">900+ Voices</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $31/mo</span>
+                        <a href="https://play.ht" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Murf -->
+                <div class="tool-card" id="murf">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎤</div>
+                        <div class="tool-info">
+                            <h3><a href="https://murf.ai" target="_blank" rel="noopener">Murf AI</a></h3>
+                            <span class="tool-tagline">Enterprise Voice Studio</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Professional AI voice generator for enterprise. Video editor, voice changer, transcription. Great for training videos.</p>
+                    <div class="tool-tags">
+                        <span class="tag">TTS</span>
+                        <span class="tag">Enterprise</span>
+                        <span class="tag">Video Editor</span>
+                        <span class="tag">120+ Voices</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $23/mo</span>
+                        <a href="https://murf.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -1455,6 +2004,7 @@
         <section id="image-tools" class="tools-section" data-category="image">
             <div class="section-header">
                 <h2 class="section-title">🎨 AI Image Tools</h2>
+                <a href="/image-tools.html" class="category-link">View all 12+ image tools →</a>
             </div>
             <div class="tools-grid">
                 <!-- Midjourney -->
@@ -1566,6 +2116,72 @@
                         <a href="https://canva.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
                     </div>
                 </div>
+
+                <!-- Flux -->
+                <div class="tool-card" id="flux">
+                    <div class="tool-header">
+                        <div class="tool-icon">⚡</div>
+                        <div class="tool-info">
+                            <h3><a href="https://blackforestlabs.ai" target="_blank" rel="noopener">Flux</a></h3>
+                            <span class="tool-tagline">New Best-in-Class</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">From Black Forest Labs (ex-Stability). Flux.1 Pro rivals Midjourney quality. Open weights available. New standard.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Image Gen</span>
+                        <span class="tag">Open Weights</span>
+                        <span class="tag">High Quality</span>
+                        <span class="tag">New</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free / API</span>
+                        <a href="https://blackforestlabs.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Leonardo.ai -->
+                <div class="tool-card" id="leonardo">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎮</div>
+                        <div class="tool-info">
+                            <h3><a href="https://leonardo.ai" target="_blank" rel="noopener">Leonardo.ai</a></h3>
+                            <span class="tool-tagline">Game Assets & Design</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI image generation for game assets and design. Custom models, consistent characters, production-ready output.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Game Assets</span>
+                        <span class="tag">Characters</span>
+                        <span class="tag">Custom Models</span>
+                        <span class="tag">Production</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $12/mo</span>
+                        <a href="https://leonardo.ai" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Remove.bg -->
+                <div class="tool-card" id="removebg">
+                    <div class="tool-header">
+                        <div class="tool-icon">✨</div>
+                        <div class="tool-info">
+                            <h3><a href="https://remove.bg" target="_blank" rel="noopener">Remove.bg</a></h3>
+                            <span class="tool-tagline">Background Removal</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Automatic background removal in seconds. API available for integration. Industry standard for e-commerce.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Background</span>
+                        <span class="tag">Removal</span>
+                        <span class="tag">API</span>
+                        <span class="tag">E-commerce</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $9/mo</span>
+                        <a href="https://remove.bg" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -1573,6 +2189,7 @@
         <section id="video-tools" class="tools-section" data-category="video">
             <div class="section-header">
                 <h2 class="section-title">🎬 AI Video Tools</h2>
+                <a href="/video-tools.html" class="category-link">View all 12+ video tools →</a>
             </div>
             <div class="tools-grid">
                 <!-- Runway -->
@@ -1684,6 +2301,94 @@
                         <a href="https://synthesia.io" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
                     </div>
                 </div>
+
+                <!-- Kling -->
+                <div class="tool-card" id="kling">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎭</div>
+                        <div class="tool-info">
+                            <h3><a href="https://klingai.com" target="_blank" rel="noopener">Kling AI</a></h3>
+                            <span class="tool-tagline">High-Quality Video Gen</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Kuaishou's video generation model. Rivals Sora in quality with free tier. Up to 10s videos with impressive physics.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Text-to-Video</span>
+                        <span class="tag">High Quality</span>
+                        <span class="tag">Free Tier</span>
+                        <span class="tag">10s Videos</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free tier</span>
+                        <a href="https://klingai.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- CapCut -->
+                <div class="tool-card" id="capcut">
+                    <div class="tool-header">
+                        <div class="tool-icon">✂️</div>
+                        <div class="tool-info">
+                            <h3><a href="https://capcut.com" target="_blank" rel="noopener">CapCut</a></h3>
+                            <span class="tool-tagline">Free AI Editing</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Free video editor with AI features. Auto-captions, background removal, effects, templates. Mobile and desktop.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Editing</span>
+                        <span class="tag">Auto-Captions</span>
+                        <span class="tag">Free</span>
+                        <span class="tag">Mobile</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-free">Free / $10/mo</span>
+                        <a href="https://capcut.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- Opus Clip -->
+                <div class="tool-card" id="opus">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎞️</div>
+                        <div class="tool-info">
+                            <h3><a href="https://opus.pro" target="_blank" rel="noopener">Opus Clip</a></h3>
+                            <span class="tool-tagline">Long-to-Short AI</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">AI turns long videos into viral shorts. Auto-detects best moments, adds captions, formats for TikTok/Reels/Shorts.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Repurposing</span>
+                        <span class="tag">Shorts</span>
+                        <span class="tag">Auto-Clip</span>
+                        <span class="tag">Social</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $19/mo</span>
+                        <a href="https://opus.pro" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
+
+                <!-- D-ID -->
+                <div class="tool-card" id="did">
+                    <div class="tool-header">
+                        <div class="tool-icon">🎭</div>
+                        <div class="tool-info">
+                            <h3><a href="https://d-id.com" target="_blank" rel="noopener">D-ID</a></h3>
+                            <span class="tool-tagline">Photo Animation</span>
+                        </div>
+                    </div>
+                    <p class="tool-description">Animate photos with AI. Turn any portrait into a talking video. API available for integration.</p>
+                    <div class="tool-tags">
+                        <span class="tag">Photo Animation</span>
+                        <span class="tag">Talking Photo</span>
+                        <span class="tag">API</span>
+                        <span class="tag">Creative</span>
+                    </div>
+                    <div class="tool-pricing">
+                        <span class="price price-paid">Free / $16/mo</span>
+                        <a href="https://d-id.com" target="_blank" rel="noopener" class="visit-btn">Visit →</a>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -1783,6 +2488,29 @@
             </div>
         </section>
 
+        <!-- FAQ Section - GEO Optimization -->
+        <section class="faq-section">
+            <h2>❓ Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">What are AI-native tools?</div>
+                    <div class="faq-answer">AI-native tools are software applications built from the ground up with artificial intelligence as their core functionality. Unlike traditional software with AI features added later, these tools use machine learning and large language models as their primary value proposition.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">What is the best AI coding tool in 2025?</div>
+                    <div class="faq-answer">The best AI coding tool depends on your needs. <strong>Cursor</strong> offers the best all-around UX for daily coding. <strong>Claude Code</strong> excels at complex refactoring with 80.9% SWE-bench score. <strong>GitHub Copilot</strong> is best for enterprise security. <strong>Windsurf</strong> offers the best free tier.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">How much do AI tools cost?</div>
+                    <div class="faq-answer">AI tools range from free to $50+/month. Many offer free tiers with limited usage. Popular pricing: ChatGPT/Claude at $20/month, Cursor/Windsurf at $15-20/month, Midjourney at $10/month. Open-source tools like Stable Diffusion are free.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Are AI tools worth the subscription cost?</div>
+                    <div class="faq-answer">For professionals, yes. Studies show AI coding tools improve productivity by 30-50%. At $20/month, even saving 1-2 hours weekly makes them worthwhile. The ROI is typically positive within the first month of professional use.</div>
+                </div>
+            </div>
+        </section>
+
         <!-- Newsletter -->
         <section class="newsletter">
             <h2>📬 Weekly AI Tools Digest</h2>
@@ -1798,12 +2526,12 @@
             <div class="monetization-card">
                 <h3>🚀 Submit Your Tool</h3>
                 <p>Have an AI-native tool? Get listed in our directory and reach thousands of developers, creators, and businesses.</p>
-                <a href="mailto:submit@ai-native-tools.directory?subject=Tool Submission" class="btn btn-primary">Submit Free Listing</a>
+                <a href="/submit.html" class="btn btn-primary">Submit Free Listing</a>
             </div>
             <div class="monetization-card">
                 <h3>⭐ Get Featured</h3>
                 <p>Stand out with a featured listing, prominent placement, and dedicated review. Includes social promotion.</p>
-                <a href="mailto:featured@ai-native-tools.directory?subject=Featured Listing" class="btn btn-secondary">Get Featured — $99/mo</a>
+                <a href="/featured.html" class="btn btn-secondary">Get Featured — $99/mo</a>
             </div>
         </section>
     </main>

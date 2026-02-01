@@ -8,18 +8,18 @@ Visit: [ai-native-tools.directory](https://ai-native-tools.directory/)
 
 ## 📊 Overview
 
-A comprehensive directory featuring **45+ AI-native tools** across 8 categories:
+A comprehensive directory featuring **75+ AI-native tools** across 8 categories:
 
 | Category | Tools | Description |
 |----------|-------|-------------|
-| 💻 Coding Agents | 10 | Claude Code, Cursor, GitHub Copilot, Windsurf, Cline, Aider, etc. |
-| ✍️ Writing | 7 | Claude, ChatGPT, Jasper, Copy.ai, Writesonic, Notion AI, Grammarly |
-| 🔬 Research | 6 | Perplexity, Elicit, Consensus, Semantic Scholar, NotebookLM, Scite |
-| ⚡ Automation | 5 | Zapier, Make, n8n, Bardeen, Clay |
-| 🌐 Browser | 3 | Browserbase, MultiOn, Arc Browser |
-| 🎙️ Voice | 4 | ElevenLabs, Whisper, Descript, Otter.ai |
-| 🎨 Image | 5 | Midjourney, DALL-E 3, Stable Diffusion, Ideogram, Canva AI |
-| 🎬 Video | 5 | Runway, Sora, Pika, HeyGen, Synthesia |
+| 💻 Coding Agents | 15+ | Claude Code, Cursor, GitHub Copilot, Windsurf, Cline, Aider, Lovable, v0, Bolt |
+| ✍️ Writing | 12+ | Claude, ChatGPT, Gemini, Jasper, Copy.ai, Writesonic, Grammarly, Rytr |
+| 🔬 Research | 10+ | Perplexity, Elicit, Consensus, Semantic Scholar, NotebookLM, ChatPDF |
+| ⚡ Automation | 10+ | Zapier, Make, n8n, Bardeen, Clay, Activepieces, Instantly |
+| 🌐 Browser | 8+ | Browserbase, MultiOn, Arc Browser, Operator, Monica |
+| 🎙️ Voice | 10+ | ElevenLabs, Whisper, Descript, Otter.ai, PlayHT, Murf |
+| 🎨 Image | 12+ | Midjourney, DALL-E 3, Stable Diffusion, Flux, Ideogram, Leonardo |
+| 🎬 Video | 12+ | Runway, Sora, Pika, HeyGen, Synthesia, CapCut, Opus Clip |
 
 ## ✨ Features
 
@@ -27,21 +27,32 @@ A comprehensive directory featuring **45+ AI-native tools** across 8 categories:
 - Comprehensive meta tags (title, description, keywords)
 - Open Graph tags for social sharing
 - Twitter Card support
-- JSON-LD schema markup (CollectionPage, ItemList)
+- JSON-LD schema markup (CollectionPage, ItemList, FAQPage)
 - Semantic HTML structure
 - Canonical URLs
 
 ### GEO Optimized (Generative Engine Optimization)
-- Clear comparison tables with feature matrices
+- Clear definitions at top of each category page
+- Structured comparison tables with feature matrices
+- FAQ sections with JSON-LD markup
 - Structured pricing information
-- Pros/cons for each tool
 - Category-based organization
 - Robots.txt allows AI crawlers (GPTBot, Claude-Web, PerplexityBot)
 
+### Category Pages
+- `/coding-tools.html` - 15+ AI coding agents & assistants
+- `/writing-tools.html` - 12+ AI writing & copywriting tools
+- `/research-tools.html` - 10+ AI research & academic tools
+- `/automation-tools.html` - 10+ AI workflow automation tools
+- `/browser-tools.html` - 8+ AI browser agents & extensions
+- `/voice-tools.html` - 10+ AI voice & audio tools
+- `/image-tools.html` - 12+ AI image generation & editing
+- `/video-tools.html` - 12+ AI video creation & editing
+
 ### Monetization Ready
 - Newsletter signup form
-- "Submit Tool" free listing CTA
-- "Get Featured" paid placement CTA ($99/mo)
+- `/submit.html` - Free listing submission form
+- `/featured.html` - $99/mo featured placement with benefits
 - Featured tool badges for premium listings
 
 ### Modern Design
@@ -56,10 +67,20 @@ A comprehensive directory featuring **45+ AI-native tools** across 8 categories:
 
 ```
 ai-native-tools/
-├── index.html      # Main directory page (45+ tools)
-├── sitemap.xml     # XML sitemap for search engines
-├── robots.txt      # Crawler instructions
-└── README.md       # This file
+├── index.html          # Main directory page (75+ tools)
+├── coding-tools.html   # AI coding tools category
+├── writing-tools.html  # AI writing tools category
+├── research-tools.html # AI research tools category
+├── automation-tools.html # AI automation tools category
+├── browser-tools.html  # AI browser tools category
+├── voice-tools.html    # AI voice tools category
+├── image-tools.html    # AI image tools category
+├── video-tools.html    # AI video tools category
+├── submit.html         # Free listing submission page
+├── featured.html       # Premium listing ($99/mo) page
+├── sitemap.xml         # XML sitemap for search engines
+├── robots.txt          # Crawler instructions
+└── README.md           # This file
 ```
 
 ## 🔧 Each Tool Entry Includes
@@ -76,11 +97,12 @@ ai-native-tools/
 
 - Title: 70 characters (optimal for SERP)
 - Meta description: 160 characters (optimal for SERP)
-- H1: One primary heading
+- H1: One primary heading per page
 - H2: Category section headers
-- H3: Individual tool names
+- H3/H4: Individual tool names
 - Internal links: Category navigation
 - External links: All tool websites (noopener for security)
+- FAQ Schema: JSON-LD FAQPage markup
 
 ## 🚀 Deployment
 
@@ -91,23 +113,22 @@ Static site - deploy anywhere:
 - Cloudflare Pages
 - AWS S3 + CloudFront
 
-## 📊 Comparison Table
+## 📊 Comparison Tables
 
-Includes detailed coding agents comparison with:
-- Tool type (CLI/IDE/Extension)
-- Pricing
-- Context window size
-- Agentic capabilities
-- Open source status
-- Best use case
+Each category page includes detailed comparison tables with:
+- Tool type (CLI/IDE/Extension/Web)
+- Pricing tiers
+- Key features
+- Best use cases
 
 ## 🔄 Updating
 
 To add new tools:
 1. Add a new `<div class="tool-card">` in the appropriate category section
 2. Update the tool count in hero stats
-3. Update sitemap.xml lastmod date
-4. Consider adding to comparison table if relevant
+3. Add to relevant category page
+4. Update sitemap.xml lastmod date
+5. Consider adding to comparison table if relevant
 
 ## 📝 License
 
